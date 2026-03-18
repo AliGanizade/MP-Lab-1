@@ -4,6 +4,7 @@ void setup() {
 
 void loop() {
   PORTB |= (1 << 5);   // Set Bit 5 HIGH
-           
-  PORTB &= ~(1 << 5);  // Set Bit 5 LOW    
+  delay(500);         
+  PORTB &= ~(1 << 5);  // Set Bit 5 LOW 
+  delay(500);
 }
